@@ -97,7 +97,7 @@ export default {
           message:
             '确认退出吗'
         })
-        this.$store.commit('setUser', {})
+        this.$store.commit('setUser', null)
       } catch (err) {
         console.log(err)
       }
